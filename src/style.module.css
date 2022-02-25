@@ -1,0 +1,9 @@
+.active{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 900;
+}
+.normal{
+    text-decoration: none;
+    opacity: 0.5;
+}
