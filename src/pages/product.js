@@ -4,7 +4,7 @@ import {  useNavigate } from "react-router-dom";
 export default function Product(){
     const navigate=useNavigate();
     const navhand=(page)=>{
-        navigate(`/product/${page}`,{state:{name:"gharem",age:"22"}})
+        navigate(`/product/${page}`,{state:{name:"gharem",age:"22",Image:"http://englishrussia.com/wp-content/uploads/2014/12/5725112_xlarge.jpg"}})
     }
     return(
         <div>

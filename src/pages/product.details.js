@@ -8,7 +8,7 @@ export default function Product_Details(){
             page:{id.productId}<br/>
             Data:{location.state.name}<br/>
             age:{location.state.age}<br/>
-           
+           <img src={location.state.Image}/>
         </div>
     )
 }
