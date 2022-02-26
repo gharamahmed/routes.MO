@@ -1,10 +1,14 @@
-import { useParams } from "react-router-dom"
+import { useLocation, useParams } from "react-router-dom"
 
 export default function Product_Details(){
     const id=useParams();
+    const location=useLocation();
     return(
         <div>
-            Product Details{id.productId}
+            page:{id.productId}<br/>
+            Data:{location.state.name}<br/>
+            age:{location.state.age}<br/>
+           
         </div>
     )
 }
